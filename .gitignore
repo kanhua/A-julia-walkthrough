@@ -1,0 +1,6 @@
+*.sublime-project
+*.sublime-workspace
+
+# ignore the following directories
+note and drafts/
+raw files/
