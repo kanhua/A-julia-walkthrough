@@ -1,3 +1,7 @@
+---
+title: Why Julia?
+---
+
 Why Julia?
 
 Julia是什麼?為什麼應該注意Julia這個新的語言呢?或者說，為什麼需要Julia呢?它有可能在資料科學中佔一席之地嗎?
