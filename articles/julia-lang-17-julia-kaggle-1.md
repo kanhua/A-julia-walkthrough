@@ -1,13 +1,14 @@
+---
+title: 用julia玩kaggle (1)
+---
+
 鐵人賽30天也差不多過一半了，雖然把這個系列放在big data底下，但是所有的篇幅都在介紹julia的語言特性和實作，實在有點心虛。最近要想來開始花一點來看如何把julia應用在big data的分析和運算。
 
 正好最近Kaggle推出了一個競賽叫做[First steps with Julia](http://www.kaggle.com/c/street-view-getting-started-with-julia)，主要目的是要推廣julia這個新的程式語言。這個競賽是在Kaggle的101分類底下，所以競賽的成績不會計入個人的總積分，當然也沒有獎金，for fun and knowledge。而這個First steps with Julia的資料和指南當然就是我們試刀的最好材料。
 
 這個競賽的題目是要辨識google街景圖裡面抓下來的字元，內容像下圖這樣:
 
-
-
-
-
+![picture](../figures/firstStepsWithJuliaDataSets.001.jpg)
 
 
 Kaggle網站上提供了兩個tutorial，讓julia的初學者可以很快地見識julia的能力。其中一個[tutorial用了random forest來做辨識](http://www.kaggle.com/c/street-view-getting-started-with-julia/details/julia-tutorial)，而另一個[tutorial則是用了k nearest neighbor (KNN) method](http://www.kaggle.com/c/street-view-getting-started-with-julia/details/knn-tutorial)。
