@@ -51,6 +51,8 @@ NB: 用Homebrew安裝時可能會有gcc版本的問題，有時候可能需要�
 
 安裝之後執行Julia，會看到類似如下的畫面:
 
+![screen shot](../figures/julia_terminal_screen_shot.png)
+
 
 鍵入```1+1```然後按```Enter```，出現```2```的話就表示安裝成功了XD
 
