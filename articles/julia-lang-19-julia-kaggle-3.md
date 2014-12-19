@@ -1,3 +1,8 @@
+---
+title: 用julia玩Kaggle (3)-ijulia
+---
+
+
 在繼續玩titanic這個data set之前，我想先介紹IJulia這個工具。
 
 

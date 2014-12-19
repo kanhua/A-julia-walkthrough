@@ -1,3 +1,8 @@
+---
+title: 用julia玩Kaggle (2)
+
+---
+
 在前一篇文章中，有稍微帶過了DataFrames這個package的功能，今天要更進一步介紹如何使用DataFrames來讀取和分析表格式的資料。
 
 Kaggle上的[Titanic](http://www.kaggle.com/c/titanic-gettingStarted)問題是一個相當適合用來介紹DataFrames的資料集。Titanic問題也是kaggle上其中一個被歸類在101的問題。這個題目包含了一個training set和一個test set。training set包含了一些旅客的登錄資料以及他們是否生還，而題目要問的就是要根據這個training set找出登錄資料和生還者之間的關係，接著預測test set裡面的旅客是否生還。這組資料不大不小，欄位不多，但是包含了不同的資料型態，很適合拿來學習用。
