@@ -1,3 +1,5 @@
+# 用julia玩kaggle之整理data
+
 這一篇的主題是用julia來整理有點殘缺的資料。讀者們可以先看之前[ijulia notebook](http://nbviewer.ipython.org/gist/kanhua/eba1bac946bab4d89670)來複習一下目前的進度。
 
 在處理這些資料之前，要先決定我們要用什麼模型來預測生還者。我想要demo的作法是用前幾天的文章中介紹的random forest來預測生還者。這個模型中，我不會用到全部的欄位，例如像旅客編號就是我想要捨棄的部份。

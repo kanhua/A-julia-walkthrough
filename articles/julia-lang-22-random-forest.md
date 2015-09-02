@@ -1,3 +1,5 @@
+# Random Forest Classification
+
 上一篇完成了資料的整理。今天就來試一下用random forest來做預測。
 
 在julia(17)這篇文章我們也是用這個演算法來做字母辨識，之前的code幾乎可以拿過來用。但還是需要稍微調整一下。

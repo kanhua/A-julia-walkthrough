@@ -1,6 +1,4 @@
----
-title: 用julia玩kaggle (1)
----
+# 用julia玩kaggle (1)
 
 鐵人賽30天也差不多過一半了，雖然把這個系列放在big data底下，但是所有的篇幅都在介紹julia的語言特性和實作，實在有點心虛。最近要想來開始花一點來看如何把julia應用在big data的分析和運算。
 

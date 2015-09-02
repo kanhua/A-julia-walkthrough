@@ -1,3 +1,5 @@
+# 深入解析DataFrame，順道一提parametric type 
+
 昨天大致完成了模型的cross validation，把昨天的程式稍微模組化，然後使用apply_forest()來產生預測結果，寫入檔案之後，就可以把它上傳到Kaggle了。分數大約是0.75左右。差強人意但也不算太壞，因為這邊所有模型的參數都是我自己憑感覺下的，應該還有一點再優化的空間。由於我們這個系列文章是以介紹julia的語言和特性為主，所以接下來的工作就讓有興趣的讀者們繼續研究。我的ijulia notebook一樣是放在[nbviewer上歡迎大家下載指教](http://nbviewer.ipython.org/gist/kanhua/bf4a75884f3cb2934364)。
 
 前面我們用了DataFrame這個資料結構來存放表格式的資料，接下來我想花一些時間對這個資料結構做個比較深入的介紹。DataFrame這個package雖然是目前julia社群用來處理表格式資料的主流，但它的官方說明文件實在是很殘缺不齊，如果沒有花時間深入研究它的code來了解它的基本架構的話就沒辦法做用自如。我自己花了一點時間看DataFrame package的code之後覺得它還蠻有趣的，也發現它也很適合當一些julia進階語法的應用實例。

@@ -6,7 +6,7 @@ I have plans to write an English version for this set of tutorials after I finis
 
 
 這是一系列的julia教學文章，原文發表於[ithelp](http://ithelp.ithome.com.tw/ironman7/app/profile/20091968/cloud)。會持續在這裡修訂更新並且增加新文
-請直接進入```articles\```目錄閱讀。
+請直接進入[articles](./articles)目錄閱讀。
 
 範例的julia 2048遊戲原始碼放在這裡: [https://github.com/kanhua/julia2048](https://github.com/kanhua/julia2048)
 

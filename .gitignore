@@ -4,3 +4,5 @@
 # ignore the following directories
 note and drafts/
 raw files/
+Gemfile
+Gemfile.lock

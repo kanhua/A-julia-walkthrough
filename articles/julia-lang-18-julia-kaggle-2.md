@@ -1,7 +1,4 @@
----
-title: 用julia玩Kaggle (2)
-
----
+# 用julia玩Kaggle (2)
 
 在前一篇文章中，有稍微帶過了DataFrames這個package的功能，今天要更進一步介紹如何使用DataFrames來讀取和分析表格式的資料。
 

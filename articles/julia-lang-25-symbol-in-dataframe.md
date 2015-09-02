@@ -1,3 +1,5 @@
+# Symbol型別在DataFrame的角色
+
 前一篇我們提到了DataFrame是用Symbol這個型別的儲存Index資訊。這一篇就要來解釋為什麼要這樣做:
 
 julia程式的每一行指令(Expression)都是由兩個部份組成，head和args，它的定義是這樣的:

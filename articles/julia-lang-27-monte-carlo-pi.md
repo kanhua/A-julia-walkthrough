@@ -1,3 +1,5 @@
+# 平行運算的實例:蒙地卡羅法計算圓周率 
+
 julia另一種常見的parallel computing模式是直接把for loop的運作平行化，像這樣:
 
 ```
